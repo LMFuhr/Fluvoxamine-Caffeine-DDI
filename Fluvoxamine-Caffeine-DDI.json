@@ -1168,6 +1168,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0,
+              "Max": 30.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -1353,6 +1355,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 24.0,
+              "Max": 50.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -1489,13 +1493,15 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0,
+              "Max": 33.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -2252,7 +2258,7 @@
             0.240336329
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
